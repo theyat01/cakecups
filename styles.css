@@ -1,0 +1,111 @@
+﻿body {
+    margin: 0;
+}
+
+.header {
+    height: 75px;
+    background-color: rgb(46, 88, 93);
+    position: relative;
+}
+
+.header-logo {
+    color: rgb(126,189,194);
+    font-size: 25px;
+    font-family: Palatino;
+    font-style: italic;
+    position: absolute;
+    left: 23px;
+    top: 23px;
+}
+
+.header-cta {
+    position: absolute;
+    right: 23px;
+    top: 13px;
+    font-family: "Courier New";
+    font-weight: bold;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(239,111,108);
+    font-size: 17px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.header-cta:hover {
+    background-color: rgb(255, 117, 113);
+}
+
+.call-to-action {
+    font-family: "Courier New";
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(239,111,108);
+    text-decoration: none;
+    letter-spacing: .5px;
+    font-size: 20px;
+    padding: 18px 28px;
+    border-radius: 18px;
+}
+
+.call-to-action:hover {
+    background-color: rgb(255,117,113);
+}
+
+.homepage-main-section {
+    background-image: url("cakecups_bg.jpg");
+    height: 600px;
+    background-size: cover;
+}
+
+.heading-logo {
+    font-size: 72px;
+    font-family: Palatino;
+    font-style: italic;
+}
+
+.primary-color {
+    color: rgb(83, 46, 35);
+}
+
+.secondary-color {
+    color: rgb(51, 140, 158);
+}
+
+.paragraph-large {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1.7px;
+}
+
+.homepage-main-section-content {
+    padding-top: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.link-icon {
+    margin-right: 25px;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 1.7px;
+}
+
+.homepage-secondary-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.heading-secondary {
+    font-size: 32px;
+    font-family: Palatino;
+    font-style: italic;
+}
